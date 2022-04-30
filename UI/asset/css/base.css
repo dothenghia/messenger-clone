@@ -1,0 +1,26 @@
+:root {
+    --white-color : #fff;
+    --ground-color : #f4f4f4;
+    --input-color : #f3f3f5;
+    --white-color : #fff;
+    --hover-color : #e6e6e6;
+    --primary-color :#0084ff;
+
+    --side-bar--left-width : 360px;
+    --side-bar--right-width : 380px;
+    --chat-box-width : calc(100% - var(--side-bar--left-width) - var(--side-bar--right-width));
+    --side-bar__left--fixed-box : 134px;
+
+
+    /* Side bar RIGHT list */
+    --option-item--height : 44px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Messenger</title>
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./asset/icon/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <div class="main">
+
+        <div class="side-bar__left">
+            <div class="side-bar__left--fixed-box">
+                <div class="side-bar__header">
+                    <div class="side-bar__header--left">
+                        <img class="side-bar_header--user-icon" src="./asset/img/user_avatar/user1.jpg" alt="">
+                        <h2>Chat</h2>
+                    </div>
+                    <div class="side-bar__header--right">
+                        <i class="side-bar__header-icon ti-more-alt"></i>
+                        <i class="side-bar__header-icon fas fa-video"></i>
+                        <i class="side-bar__header-icon far fa-edit"></i>
+                    </div>
+                </div>
+    
+    
+                <div class="side-bar__search">
+                    <div class="side-bar__search-wrap">
+                        <label for="side-bar__search-input"><i class="side-bar__search-icon ti-search"></i></label>
+                        <input class="side-bar__search-input" placeholder="Tìm kiếm trên Messenger" type="text" name="side-bar__search-input" id="side-bar__search-input"> 
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <div class="side--bar__chat-list">
+                <div class="side--bar__chat-list-roll">
+                    
+                <ul class="side-bar__user-list">
+
+                    <!-- <li class="side-bar__chat-item">
+                        <div class="chat-item--user-icon">
+                            <img class="chat-item--user-img" src="./asset/img/user_avatar/user2.jpg" alt="">
+                        </div>
+                        <div class="chat-item--content">
+                            <h3 class="chat-item--heading">Thế Nghĩa</h3>
+                            <div class="chat-item--text">
+                                <p class="chat-item--description">Nghĩa đã gửi 1 ảnh.</p>
+                                <span class="chat-item--online">27 phút</span>
+                            </div>
+                        </div>
+                        <span class="chat-item--sent"><i class="ti-check"></i></span>
+                    </li> -->
+                    
+
+
+
+
+                </ul>
+
+                
+                </div>
+            </div>
+
+        </div>
+
+        <div class="chat-box">
+            <div class="chat-box__header">
+                <div class="chat-box__header--left">
+                    <!-- <img class="chat-box_header--user-icon" src="./asset/img/user_avatar/user1.jpg" alt="">
+                    <h3>Thế Nghĩa</h3> -->
+                </div>
+                <div class="chat-box__header--right">
+                    <i class="chat-box__header-icon fas fa-phone-alt"></i>
+                    <i class="chat-box__header-icon fas fa-video"></i>
+                    <i class="chat-box__header-icon ti-more-alt"></i>
+                </div>
+            </div>
+
+
+
+
+            <ul class="chat-box__message-block" id="chat-box__message-block">
+                <!-- <li class="chat-box__message">${data.message}</li> -->
+            </ul>
+
+
+
+            <div class="chat-box__input-section">
+                <i class="chat-box__input-icon fas fa-plus-circle"></i>
+                <i class="chat-box__input-icon far fa-image"></i>
+                <span class="chat-box__input-sticker-button"></span>
+                <i class="chat-box__input-icon fas fa-folder"></i>
+                <div class="chat-box__input-wrap">
+                    <input class="chat-box__input" placeholder="Aa" type="text" name="" id="chat-box__input">
+                    <i class="chat-box__input-emoji fas fa-smile"></i>
+                </div>
+                <!-- <img class="chat-box__like-button" src="./asset/img/like_icon/pngfind.com-thumbs-up-icon-png-1148174.png" alt=""> -->
+                <div class="chat-box__send">
+                    <i class="fas fa-paper-plane chat-box__send-button"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-bar__right">
+            <div class="side-bar__right--user-info">
+                <!-- <img src="./asset/img/user_avatar/user1.jpg" alt="">
+                <h3>Thế Nghĩa</h3> -->
+            </div>
+
+            <ul class="side-bar__right-option--list">
+                <li class="side-bar__right-option--item">
+                    <p class="side-bar__right-option--title">Tùy chỉnh đoạn chat</p>
+                    <i class="fas fa-angle-down option--title-arrow"></i>
+
+
+                    <ul class="side-bar__right-option--sub-list">
+                        <li class="side-bar__right-option--sub-item">
+                            <span class="sub-item-icon--theme"></span>
+                            <p class="side-bar__right-option--sub-title">Đổi chủ đề</p>
+        
+                        </li>
+                        <li class="side-bar__right-option--sub-item">
+                            <img class="sub-item-icon--emoji" src="./asset/img/like_icon/pngfind.com-thumbs-up-icon-png-1148174.png" alt="">
+                            <p class="side-bar__right-option--sub-title">Thay đổi biểu tượng cảm xúc</p>
+        
+                        </li>
+                        <li class="side-bar__right-option--sub-item">
+                            <span class="sub-item-icon--nickname">Aa</span>
+                            <p class="side-bar__right-option--sub-title">Chỉnh sửa biệt danh</p>
+        
+                        </li>
+                        <li class="side-bar__right-option--sub-item">
+                            <i class="sub-item-icon--search ti-search"></i>
+                            <p class="side-bar__right-option--sub-title">Tìm kiếm trong cuộc trò chuyện</p>
+        
+                        </li>
+                    </ul>
+                </li>
+
+                
+
+                <li class="side-bar__right-option--item">
+                    <p class="side-bar__right-option--title">Quyền riêng tư & hỗ trợ</p>
+                    <i class="fas fa-angle-down option--title-arrow"></i>
+
+                </li>
+                <li class="side-bar__right-option--item">
+                    <p class="side-bar__right-option--title">Tệp được chia sẻ</p>
+                    <i class="fas fa-angle-down option--title-arrow"></i>
+
+                </li>
+                <li class="side-bar__right-option--item">
+                    <p class="side-bar__right-option--title">File phương tiện được chia sẻ</p>
+                    <i class="fas fa-angle-down option--title-arrow"></i>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

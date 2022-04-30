@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Thế Nghĩa",
+      "image": "./asset/img/user_avatar/user1.jpg",
+      "message": [
+        {
+          "id": 1,
+          "content": "Helllo"
+        },
+        {
+          "id": 2,
+          "content": "hehe"
+        },
+        {
+          "id": 3,
+          "content": "test test test"
+        },
+        {
+          "id": 4,
+          "content": "Okiii"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bisscuit",
+      "image": "./asset/img/user_avatar/user2.jpg",
+      "message": [
+        {
+          "id": 1,
+          "content": "noooo"
+        },
+        {
+          "id": 2,
+          "content": ">:((((("
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hehehehe",
+      "image": "./asset/img/user_avatar/user3.jpg",
+      "message": [
+        {
+          "id": 1,
+          "content": "test 1"
+        },
+        {
+          "id": 2,
+          "content": "test 2"
+        },
+        {
+          "id": 3,
+          "content": "test 3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "123456",
+      "image": "./asset/img/user_avatar/user5.jpg",
+      "message": [
+        {
+          "id": 1,
+          "content": "test 4"
+        },
+        {
+          "id": 2,
+          "content": "test 5"
+        },
+        {
+          "id": 3,
+          "content": "test 6"
+        }
+      ]
+    }
+  ]
+}
